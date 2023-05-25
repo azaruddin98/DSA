@@ -6,9 +6,9 @@ int main() {
     int arraysize = elements;
     cout<<elements<<endl;
     int j=0;
-    for(int i=0 ; i<elements-1;)
+    while(elements!=0)
     {
-        for(j=i;j<elements-1;j++)
+        for(j=0;j<elements-1;j++)
         {
             if(a[j]>a[j+1])
             {
